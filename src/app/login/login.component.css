@@ -1,0 +1,12 @@
+.background
+{
+    background-color:#99d6ff; 
+    height: 100%;
+}
+.card
+{
+    background-color: transparent !important;
+    color: antiquewhite;
+    border: none;
+    margin-top: 30%;
+}

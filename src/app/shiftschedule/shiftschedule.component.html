@@ -1,0 +1,66 @@
+<app-navbar></app-navbar>
+
+<div class="container">
+    <div class="row">
+        <div class="offset-sm-0 col-sm-12 row">
+            <div class="col-sm-4">
+              <h5 class="text-center">Department</h5>
+              <select name="department" class="form-control">
+                <option value="Developing">Developing</option>
+                <option value="Testing">Testing</option>
+                <option value="Editing">Editing</option>
+                <option value="service">service</option>
+              </select>
+            </div>
+            <div class="col-sm-2">
+              <h5 class="text-center">Shift Number</h5>
+              <input type="number" class="form-control" placeholder="Shift Number">
+            </div>
+            <div class="col-sm-2">
+              <h5 class="text-center">Shift Description</h5>
+              <input type="text" class="form-control" placeholder="Shift Description">
+            </div>
+            <div class="col-sm-2">
+              <h5 class="text-center">Start time</h5>
+              <input type="time" class="form-control" placeholder="Start time">
+            </div>
+            <div class="col-sm-2">
+              <h5 class="text-center">End time</h5>
+              <input type="time" class="form-control" placeholder="End Time">
+            </div>
+          </div>
+    </div>
+</div><br>
+  
+  <div class="container" style="width:40%;">
+      <button type="submit" class="btn btn-info text-center form-control">Update</button>
+  </div><br>
+  
+  <div class="container">
+      <div class="">
+          <div class="col-xs-9">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Shift Number/ID</th>
+                  <th>Description</th>
+                  <th>Start Time</th>
+                  <th>End Time</th>
+                  <th>Night Shift</th>
+                  <th>Is Active</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Night Shift</td>
+                  <td>2pm</td>
+                  <td>5pm</td>
+                  <td><button class="checkbox" type="checkbox"></button></td>
+                  <td><button class="checkbox" type="checkbox"></button></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+  </div>
